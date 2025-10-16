@@ -36,23 +36,23 @@ header {
 	text-decoration: none;
 }
 .nav-2 a:first-child {
-	color: #2563eb;
+	color: #064fee;
 }
 .nav-2 a:hover {
-	color: #2563eb;
+	color: #2c06ff;
 }
 
 .avatar-box {
 	max-width: 1200px;
 	margin: 10px auto;
 	display: flex;
-	justify-content: space-between;
-	margin-left: 100px;
+	justify-content: center;
 }
 
 .text-box {
 	font-size: 1.5rem;
 	text-align: center;
+	
 }
 .first button:first-child {
 	width: 10rem;

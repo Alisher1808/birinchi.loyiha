@@ -46,7 +46,8 @@ header {
 	max-width: 1200px;
 	margin: 10px auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	margin-left: 100px;
 }
 
 .text-box {

@@ -24,9 +24,40 @@
 	</header>
 	<br>
 	<section class="home">
-		<div class="avatar-box">
-			<img src="download.jpg" alt="" width="400px" height="400px">
-		</div>
+
+
+	<div class="slider">
+  		<div class="slides" id="slides">
+    <img src="download.jpg" alt="Porsche 1" />
+    <img src="download (1).jpg" alt="Porsche 2" />
+    <img src="download (2).jpg" alt="Porsche 3" />
+    <img src="download (3).jpg" alt="Porsche 4" />
+    <img src="download (4).jpg" alt="Porsche 5" />
+    <img src="download (5).jpg" alt="Porsche 6" />
+    <img src="download.jpg" alt="Porsche 7" />
+    <img src="images.jpg" alt="Porsche 8" />
+    <img src="images (1).jpg" alt="Porsche 9" />
+     <img src="images (1).jpg" alt="Porsche 9" />
+  		</div>
+	</div>
+
+		
+<script class="slider2">
+  const slides = document.getElementById('slides');
+  const totalSlides = 10;
+  let index = 0;
+
+  function showNextSlide() {
+    index++;
+    if (index >= totalSlides) {
+      index = 0;
+    }
+    slides.style.transform = `translateX(${-index * 800}px)`;
+  }
+
+  setInterval(showNextSlide, 3000); // Har 3 soniyada rasm o‘tadi
+</script>
+
 		<br>
 		<div class="text-box">
 			<h1 style="color: rgb(75, 75, 75);">Hi, i'm <span style="color: #2563eb;">Alisher Khaitov</span></h1>
@@ -44,6 +75,8 @@
 				<a href=""><i class="fa-brands fa-twitter"></i></a>
 			</div>
 		</div>
+
+
 	</section>
 </body>
 

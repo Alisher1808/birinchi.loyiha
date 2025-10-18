@@ -24,25 +24,6 @@ header {
 	font-weight: bolder;
 }
 
-/* .nav-2 {
-	width: 50%;
-	display: flex;
-	justify-content: end;
-	align-items: center;
-	font-weight: 600;
-	gap: 50px;
-} */
-.nav-2 a {
-	color: black;
-	text-decoration: none;
-}
-.nav-2 a:first-child {
-	color: #064fee;
-}
-.nav-2 a:hover {
-	color: #2c06ff;
-}
-
 
  .slider {
     position: relative;
@@ -74,7 +55,7 @@ header {
 	text-align: center;
 	
 }
-.first button:first-child {
+/* .first button:first-child {
 	width: 10rem;
 	background-color: #2563eb;
 	padding: 1em;
@@ -98,7 +79,7 @@ header {
 .first button:last-child:hover {
 	background-color: #2563eb;
 	color: white;
-}
+} */
 
 .social-medias a {
 	color: rgb(29, 29, 29);
